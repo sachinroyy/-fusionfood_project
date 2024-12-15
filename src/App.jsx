@@ -19,6 +19,7 @@ function App() {
     
         <Routes>
           <Route path="/" element={<Homepage/>} />
+          {/* <Route path="/globe" element={<Globe/>} /> */}
         </Routes> 
         <div>
         <ExploreMenu/>

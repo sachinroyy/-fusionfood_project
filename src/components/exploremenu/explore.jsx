@@ -57,6 +57,7 @@
 // export default ExploreMenu;
 import React, { useState } from "react";
 import { menu_list, food_list } from "../../assets/assets"; // Import your menu and food data
+import Globe from "../GLOVE/newglove";
 
 const ExploreMenu = () => {
   const [category, setCategory] = useState("All"); // Default category is 'All'
@@ -68,6 +69,7 @@ const ExploreMenu = () => {
 
   return (
     <div className="container mx-auto p-6">
+       <div className=""><Globe/></div>
       <h1 className="text-4xl font-bold flex justify-center hover:underline">
         <strong className="text-6xl">Explore</strong> Our Menu
       </h1>

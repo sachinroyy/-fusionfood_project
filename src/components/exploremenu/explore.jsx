@@ -57,7 +57,7 @@
 // export default ExploreMenu;
 import React, { useState } from "react";
 import { menu_list, food_list } from "../../assets/assets"; // Import your menu and food data
-import Globe from "../GLOVE/newglove";
+import Globe from "../glove/Globe";
 
 const ExploreMenu = () => {
   const [category, setCategory] = useState("All"); // Default category is 'All'

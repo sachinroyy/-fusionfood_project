@@ -9,6 +9,9 @@ import Homepage from './pages/home/homepage';
 import Footer from './components/footer/Footer';
 import ExploreMenu from './components/exploremenu/explore';
 import FoodDisplay from './components/fooddisplay/food';
+Fullcontact
+import Fullcontact from '../src/components/contact/Fullcontact'
+
 
 ExploreMenu
 
@@ -19,13 +22,15 @@ function App() {
     
         <Routes>
           <Route path="/" element={<Homepage/>} />
-          {/* <Route path="/globe" element={<Globe/>} /> */}
+          <Route path="/Fullcontact" element={<Fullcontact/>} />
         </Routes> 
         <div>
         <ExploreMenu/>
         <FoodDisplay/>
         </div>
+
       <Footer/>
+
     </Router>
   );
 }

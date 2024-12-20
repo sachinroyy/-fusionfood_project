@@ -26,7 +26,7 @@ function App() {
         </Routes> 
         <div>
         <ExploreMenu/>
-        <FoodDisplay/>
+        <FoodDisplay/> 
         </div>
 
       <Footer/>

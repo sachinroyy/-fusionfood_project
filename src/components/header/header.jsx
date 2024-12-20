@@ -14,7 +14,7 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between p-4">
         {/* Logo Section */}
         <div className="flex items-center">
-          <Link to="/" onClick={handleLogoClick}>
+          <Link to="/">
             <img src={Logo} alt="Company Logo" className="h-[100px] w-[250px] mr-2" />
           </Link>
         </div>

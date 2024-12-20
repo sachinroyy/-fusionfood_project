@@ -5,6 +5,9 @@ import bgimg02 from '../../assets/img04.jpeg';
 import bgimg03 from '../../assets/img05.jpeg';
 import bgimg04 from '../../assets/img06.jpeg';
 
+// import ExploreMenu from '../../components/exploremenu/explore';
+// import FoodDisplay from '../../components/fooddisplay/food';
+
 const Homepage = () => {
 
   const images = [bgimg01, bgimg02, bgimg03, bgimg04]; // Array of images
@@ -33,8 +36,13 @@ const Homepage = () => {
             alt={`Slide ${index}`}
             className="w-full h-full object-cover"
           />
+          
         </div>
+        
       ))}
+
+{/* <ExploreMenu/>
+<FoodDisplay/> */}
     </div>
   );
 };

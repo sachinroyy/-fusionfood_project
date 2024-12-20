@@ -7,7 +7,7 @@ const FoodDisplay = ({ category }) => {
     // const [currentIndex, setCurrentIndex] = useState(0);
   
   const { food_list } = useContext(StoreContext);
-  // console.log(food_list)        
+  console.log(food_list)        
   
   return (
     

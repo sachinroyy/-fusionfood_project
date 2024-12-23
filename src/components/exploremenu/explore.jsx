@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { menu_list, food_list } from "../../assets/assets"; // Import your menu and food data
 import Globe from "../glove/Globe";
-
+import Newiteam from "../../pages/home/newiteam/newiteam";
 const ExploreMenu = () => {
   const [category, setCategory] = useState("All"); // Default category is 'All'
   const [cart, setCart] = useState([]); // Cart state to store selected items
@@ -49,7 +49,9 @@ const ExploreMenu = () => {
   return (
     <div className="container mx-auto p-6">
       <div className="">
+      
         <Globe />
+        < Newiteam/>
       </div>
       <h1 className="text-4xl font-bold flex justify-center hover:underline">
         <strong className="text-6xl">Explore</strong> Our Menu
